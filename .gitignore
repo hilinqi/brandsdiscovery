@@ -52,3 +52,4 @@ next-env.d.ts
 压缩包/
 
 /src/generated/prisma
+prisma/dev.db
