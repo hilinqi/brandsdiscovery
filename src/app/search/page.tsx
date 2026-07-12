@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { searchAll } from "@/lib/queries";
 import { BrandCard } from "@/components/brand/BrandCard";
 import { SearchBar } from "@/components/SearchBar";

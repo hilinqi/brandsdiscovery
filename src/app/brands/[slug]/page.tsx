@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { getBrandBySlug } from "@/lib/queries";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardBody } from "@/components/ui/card";

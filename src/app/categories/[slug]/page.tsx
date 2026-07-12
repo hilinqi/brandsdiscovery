@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { getCategoryBySlug, getPublishedBrands } from "@/lib/queries";
 import { BrandCard } from "@/components/brand/BrandCard";
 import { notFound } from "next/navigation";

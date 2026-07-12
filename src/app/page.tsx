@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import Link from "next/link";
 import { getPublishedBrands, getCategoryTree } from "@/lib/queries";
 import { BrandCard } from "@/components/brand/BrandCard";
