@@ -1,0 +1,32 @@
+{
+  "name": "BrandsDiscovery MVP v1.0 Official Development Specification",
+  "version": "1.0.0",
+  "files": [
+    "00-Global-Rules.md",
+    "CHANGELOG.md",
+    "DEPENDENCY-MAP.md",
+    "FUTURE-ROADMAP.md",
+    "MODULE-MAP.md",
+    "MVP-ACCEPTANCE-CHECKLIST.md",
+    "PI-EXECUTION-INSTRUCTION.md",
+    "PROJECT-ARCHITECTURE.md",
+    "README.md",
+    "VERSION.md",
+    "docs/01-Platform-Foundation.md",
+    "docs/02-Brand-System.md",
+    "docs/03-Category-And-Attribute-System.md",
+    "docs/04-Search-And-Discovery.md",
+    "docs/05-Merchant-Center.md",
+    "docs/06-Submission-And-Review.md",
+    "docs/07-SEO-System.md",
+    "docs/08-Content-And-Legal-Pages.md",
+    "docs/09-Admin-Operations.md",
+    "docs/10-Settings-And-Integrations.md",
+    "docs/11-Deployment-And-Launch.md",
+    "docs/12-Developer-And-Release.md",
+    "specs/mvp-specification.md",
+    "specs/ui-ux-specification.md",
+    "specs/technical-specification.md",
+    "specs/gap-analysis.md"
+  ]
+}

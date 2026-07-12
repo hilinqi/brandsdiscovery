@@ -1,0 +1,333 @@
+/**
+ * BrandsDiscovery Merchant Center Styles.
+ *
+ * @package BrandsDiscovery_Merchant_Center
+ */
+
+/* Wrapper */
+.bdc-merchant-wrapper {
+    min-height: 100vh;
+    background: #F8FAFC;
+}
+
+/* Header */
+.bdc-merchant-header {
+    background: #1B2A4A;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.bdc-merchant-header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+    height: 56px;
+}
+
+.bdc-merchant-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.bdc-merchant-logo a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.bdc-merchant-label {
+    font-size: 12px;
+    background: rgba(255,255,255,0.15);
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.bdc-merchant-nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.bdc-merchant-nav a,
+.bdc-merchant-nav .current {
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.bdc-merchant-nav a:hover,
+.bdc-merchant-nav .current {
+    color: #fff;
+}
+
+.bdc-merchant-nav .current {
+    font-weight: 600;
+}
+
+/* Main */
+.bdc-merchant-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 16px;
+}
+
+.bdc-merchant-main h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1B2A4A;
+    margin-bottom: 24px;
+}
+
+/* Stats */
+.bdc-merchant-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.bdc-merchant-stat-card {
+    background: #fff;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.bdc-merchant-stat-card h3 {
+    font-size: 28px;
+    margin: 0 0 4px;
+    color: #1B2A4A;
+}
+
+.bdc-merchant-stat-card p {
+    color: #64748B;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* Sections */
+.bdc-merchant-section {
+    background: #fff;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.bdc-merchant-section h2,
+.bdc-merchant-section h3,
+.bdc-merchant-section h4 {
+    margin-top: 0;
+    color: #1B2A4A;
+}
+
+/* Brand list */
+.bdc-merchant-brand-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.bdc-merchant-brand-card:last-child {
+    border-bottom: none;
+}
+
+.bdc-merchant-brand-info {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bdc-merchant-brand-info h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.bdc-merchant-brand-actions {
+    display: flex;
+    gap: 8px;
+}
+
+/* Forms */
+.bdc-merchant-form {
+    max-width: 640px;
+}
+
+.bdc-merchant-form-section {
+    margin-bottom: 24px;
+}
+
+.bdc-merchant-form-section h3 {
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.bdc-form-field {
+    margin-bottom: 16px;
+}
+
+.bdc-form-field label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #1B2A4A;
+}
+
+.bdc-form-field input,
+.bdc-form-field textarea,
+.bdc-form-field select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #E2E8F0;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    transition: border-color 150ms ease;
+}
+
+.bdc-form-field input:focus,
+.bdc-form-field textarea:focus {
+    outline: none;
+    border-color: #0D9488;
+}
+
+.bdc-form-field small {
+    display: block;
+    margin-top: 4px;
+    color: #94A3B8;
+    font-size: 12px;
+}
+
+.bdc-form-field input:disabled {
+    background: #F1F5F9;
+    color: #94A3B8;
+}
+
+.bdc-merchant-form-actions {
+    margin-top: 16px;
+}
+
+/* Table */
+.bdc-merchant-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bdc-merchant-table th,
+.bdc-merchant-table td {
+    text-align: left;
+    padding: 12px 16px;
+    border-bottom: 1px solid #E2E8F0;
+    font-size: 14px;
+}
+
+.bdc-merchant-table th {
+    font-weight: 600;
+    color: #64748B;
+    background: #F8FAFC;
+}
+
+/* Empty state */
+.bdc-merchant-empty {
+    text-align: center;
+    padding: 48px 24px;
+    background: #fff;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    color: #64748B;
+}
+
+/* Action items */
+.bdc-merchant-action-item {
+    padding: 12px 16px;
+    background: #FEF3C7;
+    border: 1px solid #FDE68A;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.bdc-merchant-action-item .btn {
+    margin-left: auto;
+}
+
+/* Notices */
+.bd-notice {
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.bd-notice-success {
+    background: #DCFCE7;
+    color: #166534;
+    border: 1px solid #BBF7D0;
+}
+
+.bd-notice-error {
+    background: #FEE2E2;
+    color: #991B1B;
+    border: 1px solid #FECACA;
+}
+
+/* Badge overrides */
+.bd-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.bd-badge-verified { background: #DCFCE7; color: #166534; }
+.bd-badge-published { background: #DCFCE7; color: #166534; }
+.bd-badge-draft { background: #F1F5F9; color: #475569; }
+.bd-badge-pending { background: #FEF3C7; color: #92400E; }
+.bd-badge-paused { background: #E2E8F0; color: #475569; }
+.bd-badge-rejected { background: #FEE2E2; color: #991B1B; }
+.bd-badge-approved { background: #DCFCE7; color: #166534; }
+
+.bd-text-muted {
+    color: #94A3B8;
+    font-size: 13px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .bdc-merchant-nav {
+        gap: 8px;
+        font-size: 12px;
+    }
+    .bdc-merchant-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .bdc-merchant-brand-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .bdc-merchant-action-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .bdc-merchant-action-item .btn {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,83 @@
+/**
+ * BrandsDiscovery Core Admin Styles.
+ *
+ * @package BrandsDiscovery_Core
+ */
+
+/* Dashboard grid */
+.bdc-dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.bdc-stat-card {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.bdc-stat-card h3 {
+    font-size: 36px;
+    margin: 0 0 8px;
+    color: #1B2A4A;
+}
+
+.bdc-stat-card p {
+    color: #475569;
+    margin: 0;
+    font-size: 13px;
+}
+
+.bdc-dashboard-section {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.bdc-dashboard-section h2 {
+    margin-top: 0;
+    font-size: 16px;
+    color: #1B2A4A;
+}
+
+/* Status badges */
+.bdc-status {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.bdc-status-published { background: #DCFCE7; color: #166534; }
+.bdc-status-draft { background: #F1F5F9; color: #475569; }
+.bdc-status-pending { background: #FEF3C7; color: #92400E; }
+.bdc-status-rejected { background: #FEE2E2; color: #991B1B; }
+.bdc-status-paused { background: #E2E8F0; color: #475569; }
+.bdc-status-new { background: #DBEAFE; color: #1E40AF; }
+.bdc-status-reviewing { background: #FEF3C7; color: #92400E; }
+.bdc-status-approved { background: #DCFCE7; color: #166534; }
+.bdc-status-needs_info { background: #EDE9FE; color: #5B21B6; }
+.bdc-status-revoked { background: #FEE2E2; color: #991B1B; }
+
+/* Filters */
+.bdc-filters .button {
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+/* Row actions */
+.row-actions {
+    visibility: hidden;
+    font-size: 12px;
+}
+
+tr:hover .row-actions {
+    visibility: visible;
+}
