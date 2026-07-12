@@ -1,5 +1,9 @@
 export const dynamic = "force-dynamic";
 
+export function generateStaticParams() {
+  return [];
+}
+
 import { getBrandBySlug } from "@/lib/queries";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardBody } from "@/components/ui/card";
